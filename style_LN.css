@@ -68,6 +68,27 @@ main div img{
     text-align: center;
 }
 
+main h2{
+    padding-bottom: 5px;
+    margin: 3px;
+}
+
+.autor{
+    font-size: 20px;
+}
+
+main p{
+    font-size: 16px;
+    text-align: justify;
+    margin: 15px;
+}
+
+main li{
+    margin: 15px;
+    display: inline-block;
+}
+
+
 footer{
     background-color: rgb(154, 189, 220);
     padding: 10px;
