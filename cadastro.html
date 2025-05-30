@@ -30,6 +30,52 @@
 
     <main>
         <h1>Cadastro de Light Novels</h1>
+
+        <form class="formulario">
+            <label for="titulo">Título</label>
+            <input type="text" id="titulo" placeholder="Título da Obra" class="form">
+
+            <label for="autor">Autor</label>
+            <input type="text" id="autor" placeholder="Autor da Obra">
+
+            <label for="ano">Ano de Publicação</label>
+            <input type="number" id="ano">
+
+            <h2>Genero(s)</h2>
+            <div class="genero">
+                <input type="checkbox" name="genero1" id="genero1" value="isekai">
+                <label for="genero1">Isekai</label>
+            </div> 
+            <div class="genero">
+                <input type="checkbox" name="genero2" id="genero2" value="romance">
+                <label for="genero2">Romance</label>
+            </div>
+            <div class="genero">
+                <input type="checkbox" name="genero3" id="genero3" value="acao">
+                <label for="genero3">Ação</label>
+            </div>
+            <div class="genero">
+                <input type="checkbox" name="genero4" id="genero4" value="sci-fi">
+                <label for="genero4">Sci-fi</label>
+            </div>
+            <div class="genero">
+                <input type="checkbox" name="genero5" id="genero5" value="slice">
+                <label for="genero5">Slice of Life</label>
+            </div>
+            <div class="genero">
+                <input type="checkbox" name="genero6" id="genero6" value="outros">
+                <label for="genero6">Outros</label>
+            </div>
+
+            <label for="capa">Capa</label>
+            <input type="file" name="capa" id="capa">
+
+            <br>
+            
+            <button type="submit" class="btn">
+                Cadastrar Obra
+            </button>
+        </form>
     </main>
    
     <footer>
